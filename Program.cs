@@ -16,5 +16,25 @@ namespace HelloWorld
   }
 }
 
+////////// Getting Input //////////
+
+// Console.ReadLine() captures text that a user types into the console
+// Run the terminal with dotnet run
+
+using System;
+
+namespace GettingInput
+{
+  class Program
+  {
+    static void Main()
+    {
+      Console.WriteLine("Do you love to code?");
+      string input = Console.ReadLine();
+      Console.WriteLine($"{input}!");
+    }
+  }
+}
+
 
  
